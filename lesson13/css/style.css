@@ -1,0 +1,55 @@
+.footer_nav__menu {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.nav__content {
+    padding-right: 60px;
+    font-size: 26px;
+    color: rgb(75, 75, 75);
+}
+
+.header_info__menu {
+    text-align: right;
+}
+
+footer {
+    background-color: rgb(211, 173, 246);
+    padding-bottom: 50px;
+}
+
+::marker {
+    color: rgb(89, 191, 224);
+}
+
+li {
+    font-size: 24px;
+    color: rgb(75, 75 ,75);
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 38px;
+}
+
+nav {
+    padding-bottom: 50px;
+}
+
+p {
+    font-size: 26px;
+    color: rgb(75, 75 ,75);
+}
+
+span {
+    font-size: 24px;
+    color: black;
+}
+
+hr {
+    box-shadow: 0px 1px;
+    color: rgb(91, 8, 47);
+}
