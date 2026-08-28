@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <section>
+        <article>
+            <form>
+                <fieldset class="first-block">
+                    <h4>Ваши личные данные</h4>
+                    <label for="name">Ваше имя</label>
+                    <input
+                      id="name" 
+                      type="text" 
+                      name="username" 
+                      placeholder="Ваше имя" 
+                      required
+                    >
+
+                    <label for="age">Ваш возраст</label>
+                    <input
+                      id="age"
+                      type="number" 
+                      name="user-age" 
+                      placeholder="Возраст" 
+                      inputmode="numeric"
+                      required
+                    >
+
+                    <label for="telephone">Ваш номер телефона</label>
+                    <input
+                      id="telephone" 
+                      type="tel" 
+                      name="telephone" 
+                      placeholder="Номер телефона"
+                      inputmode="tel"
+                      required
+                    >
+
+                    <label for="email">Ваша почта</label>
+                    <input 
+                      id="email" 
+                      type="email" 
+                      name="email" 
+                      placeholder="Электронная почта"
+                      required
+                    >
+                </fieldset>
+                <fieldset class="second-block">
+                    <label for="message">Сообщение</label>
+                    <textarea class="user-message" 
+                      id="message" 
+                      name="message-from-user" 
+                      placeholder="Ваше сообщение"></textarea>
+
+                    <label for="political">
+                        <input class="political-mark" id="political" type="checkbox" required>
+                        Я принимаю правила
+                    </label>
+
+                    <button class="sender" type="submit">Отправить</button>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+</body>
+</html>

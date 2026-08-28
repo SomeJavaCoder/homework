@@ -1,0 +1,52 @@
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+body,
+textarea {
+    font-family: sans-serif;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    min-height: 20px;
+}
+
+.sender {
+    height: 30px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.political-mark {
+    cursor: pointer;
+}
+
+.user-message {
+    resize: vertical;
+    max-height: 120px;
+}
+
+textarea {
+    width: 163px;
+    min-height: 60px;
+}
+
+fieldset {
+    width: 300px;
+    border: 1px solid black;
+    padding-bottom: 0px;
+    background-color: rgb(72, 38, 86);
+}
+
+.second-block {
+    border-top: none;
+    border-radius: 0px 0px 12px 12px;
+}
+
+.first-block {
+    border-bottom: none;
+    border-radius: 12px 12px 0px 0px;
+}
