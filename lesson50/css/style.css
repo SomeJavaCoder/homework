@@ -1,0 +1,122 @@
+html {
+    font-family: Ubuntu, Oswald, sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+::marker {
+    color: rgb(43, 163, 224);
+}
+
+.main-article {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.main-article-title {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    text-transform: uppercase;
+    max-width: 716px;
+    color: #2c332f;;
+}
+
+.text-undertitle {
+    margin-bottom: 20px;
+}
+
+.text-undertitle-2 {
+    margin-bottom: 80px;
+}
+
+.article-title-group-training {
+    margin-top: 80px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.list {
+    padding: 15px;
+    margin: 0;
+}
+
+.list-item {
+    margin-bottom: 12px;
+}
+
+.about-gym {
+    margin-top: 62px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2c332f;
+}
+
+.main-image,
+.main-video {
+    width: 100%;
+}
+
+.text-undervideo {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    max-width: 1920px;
+    background-color: rgb(223, 175, 183);
+}
+
+.logo{
+    margin-left: 760px;
+    margin-bottom: 40px;
+}
+
+.footer-navigation li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.footer-navigation ul {
+    padding-left: 445px;
+    margin-bottom: 40px;
+}
+
+.link-footer {
+    text-decoration-line: none;
+    color: #2c332f;
+    font-size: 16px;
+}
+
+.line-footer {
+    max-width: 1920px;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
+
+.copyright {
+    margin-left: 675px;
+    color: #2c332f;
+    margin-bottom: 40px;
+}
