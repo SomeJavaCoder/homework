@@ -1,0 +1,139 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+label {
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+input {
+    margin: 0;
+    margin-bottom: 12px;
+    width: 100%;    
+}
+
+.form {
+    border: 1px solid #333;
+    border-radius: 6px;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.first-group,
+.second-group {
+    border: none;
+    padding: 0;
+}
+
+.first-group-name {
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.message-area {
+    resize: vertical;
+    width: 100%;
+    margin-bottom: 10px;
+    max-height: 100px;
+}
+
+input:focus-visible:not(.political-checkbox) {
+    outline: 2px solid #148f1c;
+    border-radius: 3px;
+    outline-offset: 1px;
+    border: 1px solid gray;
+    padding: 2px 3px;
+}
+
+input:disabled {
+    opacity: 0.7;
+}
+
+.message-area:focus-visible {
+    outline: 2px solid #148f1c;
+    border-radius: 3px;
+    outline-offset: 1px;
+}
+
+.political-checkbox {
+    appearance: none;
+    width: 0;
+    outline: none;
+}
+
+.political-checkbox:focus-visible {
+    outline: none;
+    border: none;
+}
+
+.political-label {
+    padding-left: 22px;
+}
+
+.political-checkbox::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    margin-left: -22px;
+}
+
+.political-checkbox:checked::after {
+    background: url("../images/check-icon.svg") no-repeat center, #148f1c;
+
+}
+
+.political-checkbox-text {
+    margin: 0;
+    font-size: 16px;
+}
+
+.button-send {
+    border: none;
+    border-radius: 7px;
+    padding: 6px;
+    cursor: pointer;
+    margin-top: 6px;
+    margin-bottom: 0;
+    background-color: #148f1c;
+    color: white;
+    transition: opacity 0.25s, background-color 0.25s, transform 0.15s;
+}
+
+.button-send:hover {
+    opacity: 0.85;
+}
+
+.button-send:not(:disabled):active {
+    background-color: #0f6213;
+    transform-origin: center;
+    transform: scale(0.97);
+}
+
+.button-send:focus-visible,
+.political-checkbox:focus-visible::after {
+    outline: 2px solid #148f1c;
+    border-radius: 4px;
+    outline-offset: 1px;   
+}
+
+.button-send:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
