@@ -1,0 +1,152 @@
+.flex-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    gap: 28px;
+    z-index: 1;
+    margin-bottom: 140px;
+    padding: 0 15px;
+}
+
+.h1-article {
+    max-width: 492px;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2C332F;
+    margin-bottom: 40px;
+    font-family: 'Oswald';
+}
+
+.h1-article .semantic-text {
+    color: #3596ED;
+}
+
+.about-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #535755;
+    max-width: 439px;
+    margin-bottom: 140px;
+}
+
+.button-info {
+    display: inline-block;
+    padding: 19px 32px;
+    color: white;
+    background-color: #3596ED;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+}
+
+.button-info:hover {
+    opacity: 0.85;
+}
+
+.images-hero {
+    display: flex;
+    position: relative;
+} 
+
+.flex-container::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 48px;
+    background: url("../images/decor-svg.svg") repeat-x;
+    bottom: 106px;
+}
+
+.hero-choose {
+    border: 1px solid #535755;
+    position: absolute;
+    padding: 22px;
+    width: 161px;
+    height: 86px;
+    background: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    top: 40px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.last-news {
+    padding-bottom: 140px;
+}
+
+.last-news-main-text {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 115%;
+    text-transform: uppercase;
+    color: #2C332F;
+    font-family: 'Oswald';
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 28px;
+}
+
+.card {
+    display: flex;
+    flex-flow: column nowrap;
+    border: 1px solid #D3CBD9;
+    background: #fff;
+    max-width: 284px;
+    overflow: hidden;
+}
+
+.time-card {
+    display: inline-block;
+    margin: 20px 20px 8px;
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #858E8A;
+}
+
+.about-card {
+    margin: 0px 20px 12px;
+}
+
+.card a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 148px 20px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3596ED;
+    text-decoration: none;
+}
+
+.card a::after {
+    display: inline-block;
+    content: "";
+    background: url("../images/arrow.svg") no-repeat;
+    width: 22px;
+    height: 9px;
+    transition: transform 0.2s;
+}
+
+.card a:hover::after {
+    transform: translateX(3px);
+}
+
+.card footer {
+    margin-top: auto;
+}
