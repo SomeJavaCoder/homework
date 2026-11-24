@@ -1,11 +1,13 @@
 .header {
-    max-width: 1250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0px;
-    border-bottom: 1px solid #D3CBD9;
+    padding: 30px 0;
     margin-bottom: 80px;
+}
+
+.container > .header {
+    border-bottom: 1px solid #D3CBD9;
 }
 
 .phone {

@@ -21,7 +21,8 @@ p {
     margin: 0;
 }
 
-.main-article {
+.container {
     max-width: 1250px;
     margin: 0 auto;
+    padding: 0 15px;
 }

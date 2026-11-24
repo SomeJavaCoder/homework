@@ -1,18 +1,11 @@
 .flex-container {
-    margin-bottom: 140px;
-}
-
-.container {
-    max-width: 1250px;
-    margin: 0 auto;
-}
-
-.flex-container {
     display: flex;
     position: relative;
+    justify-content: center;
     gap: 28px;
     z-index: 1;
-    justify-content: center;
+    margin-bottom: 140px;
+    padding: 0 15px;
 }
 
 .h1-article {
@@ -23,6 +16,7 @@
     text-transform: uppercase;
     color: #2C332F;
     margin-bottom: 40px;
+    font-family: 'Oswald';
 }
 
 .h1-article .semantic-text {
@@ -40,11 +34,21 @@
 
 .button-info {
     display: inline-block;
-    max-width: 270px;
-    max-height: 57px;
     padding: 19px 32px;
     color: white;
     background-color: #3596ED;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 130%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    transition: opacity 0.2s;
+}
+
+.button-info:hover {
+    opacity: 0.85;
 }
 
 .images-hero {
@@ -86,10 +90,12 @@
     line-height: 115%;
     text-transform: uppercase;
     color: #2C332F;
+    font-family: 'Oswald';
 }
 
 .cards-section {
     display: flex;
+    justify-content: space-between;
     gap: 28px;
 }
 
